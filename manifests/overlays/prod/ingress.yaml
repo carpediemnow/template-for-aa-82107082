@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: template-for-aa-ingress
+spec:
+  ingressClassName: ingress-internal
+  rules:
+  - host: 82107082.ce-aa.kubepia.net
+    http:
+      paths:
+      - path: /
+        backend:
+          service:
+            name: template-for-aa
+            port:
+              number: 8080
+        pathType: Prefix

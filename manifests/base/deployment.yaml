@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: template-for-aa 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: template-for-aa
+  template:
+    metadata:
+      labels:
+        app: template-for-aa
+    spec:
+      containers:
+        - name: template-for-aa
+          image: cepgstapacr.azurecr.io/template-for-aa-82017082
+          ports:
+          - containerPort: 8080
