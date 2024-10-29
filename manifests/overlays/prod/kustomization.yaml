@@ -14,5 +14,5 @@ namePrefix: prod-
 images:
 - name: ceappacr.azurecr.io/template-for-aa-82107082
   newTag: "202410290047"
-- name: cepgstapacr.azurecr.io/template-for-aa
+- name: ceappacr.azurecr.io/template-for-aa-82107082
   newTag: "202408120727"
