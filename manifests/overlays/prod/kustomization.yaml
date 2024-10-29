@@ -16,5 +16,5 @@ images:
   newTag: "202410290013"
 - name: cepgstapacr.azurecr.io/template-for-aa
   newTag: "202408120727"
-- name: cepgstapacr.azurecr.io/template-for-aa-82107082
+- name: ceappacr.azurecr.io/template-for-aa-82107082
   newTag: "202410271357"

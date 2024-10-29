@@ -16,7 +16,7 @@ import jakarta.servlet.http.HttpServletRequest;
 public class UserRestController {
 
     /**
-     * 사번 조회
+     * URL에서 사번 추출하여 리턴
      *
      * @return
      */
