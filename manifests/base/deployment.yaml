@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: template-for-aa
-          image: cepgstapacr.azurecr.io/template-for-aa-82017082
+          image: ceappacr.azurecr.io/template-for-aa-82107082
           ports:
           - containerPort: 8080
